@@ -6,7 +6,7 @@ For a summary of the solution, please refer to [this discussion](https://www.kag
 
 ## Setup
 
-The code is tested with Python 3.10.12.
+The code has been tested with Python 3.10.12.
 
 ```bash
 pip install -r requirements.txt
@@ -22,7 +22,7 @@ Please refer to `model/README.md`.
 
 ## Submission
 
-Run the following command and upload to Kaggle.
+Run the following command and upload the archive to Kaggle.
 
 ```bash
 tar --exclude='data' --exclude='model' -czf submission.tar.gz *
