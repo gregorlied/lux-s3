@@ -1,0 +1,6 @@
+.vscode
+__pycache__
+data/dataset/*
+data/meta-kaggle/*
+data/raw-episodes/*
+model/tmp/

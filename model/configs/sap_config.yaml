@@ -1,0 +1,30 @@
+# config.yaml
+data:
+  temp_dir: "/Users/gregorlied/luxai-s3/model/tmp/"
+  data_dir: "/Users/gregorlied/luxai-s3/data/dataset/"
+  sample_file: "sap_samples.pkl"
+  use_sap_dataset_bool: True
+  sub_ids: [
+    "43330490", "43330358", "43320130", "43317109", 
+    "43294433", "43293811", 
+    "43276830", 
+    "43212846", "43212163", 
+    "42704976"
+  ]
+
+model:
+  num_channels: 20
+  num_global_channels: 32
+  num_agents: 5
+  num_blocks: 1
+  num_classes: 2
+  dit_head_bool: False
+  flip_transform_bool: False
+  use_weighted_dice_bool: True
+
+training:
+  batch_size: 128
+  learning_rate: 0.001
+  num_epochs: 4
+  seed: 42
+  warmup_ratio: 0.1
