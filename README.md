@@ -28,4 +28,6 @@ Run the following command and upload to Kaggle.
 tar --exclude='data' --exclude='model' -czf submission.tar.gz *
 ```
 
-You can find my final submissions here: TBD
+You can find my final submissions here:
+- https://github.com/gregorlied/lux-s3/releases/tag/v73a
+- https://github.com/gregorlied/lux-s3/releases/tag/v73b
